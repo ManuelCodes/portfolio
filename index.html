@@ -9,17 +9,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
-        <ul id="slide-out" class="side-nav fixed">
+        <ul id="slide-out" class="side-nav fixed black">
             <li>
-                <div class="user-view">
-                    <div class="background">
-                        <img src="images/mexico_flag.png" width="280" height="200">
-                    </div>
-                    <a href="#!user"><img class="circle" src="images/photo_user.jpeg"></a>
-                    <a href="#!name"><span class="white-text name">Manuel Sánchez</span></a>
-                    <a href="#!email"><span class="white-text email">contacto@manuelsanchez.com.mx</span></a>
-                </div>
+                <img class="circle" src="images/photo_user.jpeg"  height="200" width="200" style="padding-left: 30px; padding-top: 25px" >
             </li>
+            <li><a href="#"><span class="white-text name">Manuel Sánchez</span></a></li>
+            <li><a href="#"><span class="white-text email">contacto@manuelsanchez.com.mx</span></a></li>
             <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
             <li><a href="#!">Second Link</a></li>
             <li><div class="divider"></div></li>
@@ -32,8 +27,7 @@
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script>
             $(function(){
-                $(".button-collapse").sideNav();
-                
+                $(".button-collapse").sideNav(); 
             });
         </script>
     </body>
