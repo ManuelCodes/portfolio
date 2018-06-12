@@ -7,6 +7,24 @@
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style>
+            .social-icons {
+                display: inline-block;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            .social-network {
+                display: inline-block;
+                /*
+                color: white;
+                */
+                text-align: center;
+                padding: 16px;
+                text-decoration: none
+            }
+        </style>
     </head>
     <body>
         <ul id="slide-out" class="side-nav fixed black">
@@ -14,20 +32,20 @@
                 <img class="circle" src="images/photo_user.jpeg"  height="200" width="200" style="padding-left: 30px; padding-top: 25px" >
             </li>
             <li>
-                <div>
-                    <ul style="display: inline">
+                <div style="display: inline-block;">
+                    <ul class="social-icons">
                         <li>
-                            <a href="https://www.linkedin.com/in/manuel-jose-sanchez-allan/">
+                            <a class="social-network" href="https://www.linkedin.com/in/manuel-jose-sanchez-allan/">
                                 <img src="images/linkedin_logo.png"  height="32" width="32">
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/ManuelParles">
+                            <a class="social-network" href="https://twitter.com/ManuelParles">
                                 <img src="images/twitter_logo.png">
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/ManuelCodes/">
+                            <a class="social-network" href="https://github.com/ManuelCodes/">
                                 <img src="images/github_logo.png" height="32" width="32">
                             </a>
                         </li>
