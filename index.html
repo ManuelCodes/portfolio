@@ -16,7 +16,7 @@
         </style>
     </head>
     <body>
-        <ul id="slide-out" class="side-nav fixed black">
+        <ul id="slide-out" class="side-nav  black">
             <li>
                 <img class="circle" src="images/photo_user.jpeg"  height="200" width="200" style="padding-left: 30px; padding-top: 25px" >
             </li>
@@ -40,13 +40,21 @@
             <li><a class="subheader">Subheader</a></li>
             <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
         </ul>
+        
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/parallax1.jpg" style="display: block; transform: translate3d(-50%, 192px, 0px);"></div>
+        </div>
+        <div class="parallax-container">
+                <div class="parallax"><img src="images/parallax2.jpg" style="display: block; transform: translate3d(-50%, 11px, 0px);"></div>
+              </div>
         <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script>
             $(function(){
-                $(".button-collapse").sideNav(); 
+                $(".button-collapse").sideNav();
+                $('.parallax').parallax();
             });
         </script>
     </body>
